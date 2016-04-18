@@ -1,8 +1,8 @@
-//
+// uruchamia briefing oraz tabmysquad
 execVM "briefing.sqf";
 execVM "tabMySquad.sqf";
 
-//
+// typowo do multiplayer, nie zmieniać
 enableSaving [false, false];
 
 

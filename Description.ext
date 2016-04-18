@@ -1,30 +1,22 @@
-//
+// zmienić na swoje
 briefingName="co 13 Dark Day";
-//
 author = "Stepien";
-//
 OnLoadName = "Dark Day";
-//
 onLoadMission = "RACS lead the way!";
-//
+
+// NIE ZMIENIAĆ
 disableChannels[]={2,5,6};
-//
 forceRotorLibSimulation = 0;
-//
 enableDebugConsole = 0;
-//
 respawnButton = 0;
-//
 respawn= "BIRD";
-//
 respawnTemplates[] = {"ace_spectator"};
-//
 joinUnassigned = 1;
-//
+
+// ZMIENIĆ
 class Header
     {
-     gameType=COOP; //
+     gameType=COOP; // Rodzaj misji, zazwyczaj COOP
      minPlayers=1; // Minimalna ilość graczy w danej misji
      maxPlayers=13; // Maksymalna ilość graczy w danej misji
     };
-//
