@@ -4,6 +4,8 @@ execVM "tabMySquad.sqf";
 
 // typowo do multiplayer, nie zmieniać
 enableSaving [false, false];
+enableSentences false; 
+player addRating 100000; // Komenda odpowiadająca za to by AI sojusznicze nie zabijało graczy, którzy zrobili FF (nic nie zmieniamy)
 
 
 // USTAWIENIA ASR AI
